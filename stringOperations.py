@@ -50,9 +50,9 @@ print(jina[5::-1])
 print(jina[::-2])
 print(jina[5:3:-1])
 
-#.spilt splits a string based on the number of spaces
-print(sen.spilt())
-#using a letter/character to spilt a string
-print(sen.spilt())
+#.split split a string based on the number of spaces
+print(sen.split())
+#using a letter/character to split a string
+print(sen.split("a"))
 
 
