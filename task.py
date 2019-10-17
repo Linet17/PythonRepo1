@@ -16,11 +16,20 @@ print(a)
 # print(a.get("Currency"))
 
 # 3.Print 560
-print(a[19:22])
+# print(a[19:22])
+print(taskList[2][1])
 
 # 4.Use a function to determine the length of taskList
-print(a.index("Jane"))
-# 5.Change 987 to 789 without using an inbuilt method or assignment
-print(a[44:47:1])
-# 6.Change the name "John" to "Jane" without using assignment
+# print(a.index("Jane"))
+print(len(taskList))
 
+# 5.Change 987 to 789 without using an inbuilt method or assignment
+# print(a[44:47:-1])
+# print(taskList)
+b = str(taskList[3])[::-1]
+print(b)
+print(str(taskList[3])[::-1])
+
+# 6.Change the name "John" to "Jane" without using assignment
+#[] acts as an accessor
+# "N/A"
