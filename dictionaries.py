@@ -25,6 +25,8 @@ print(personal["name"])
 #methods
 #research on .fromkeys() method
 
-print(personal.get("age"))
-print(personal.keys("age"))
+print(personal.get("Age"))
+print(personal.keys())
 print(personal.pop("is_Tall"))
+
+print (personal)

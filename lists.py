@@ -27,7 +27,7 @@ print(allStudents)
 
 # count
 allStudents.count("Geoffrey")
-
+print(allStudents)
 # strip- removes spaces outside a string,is a string method
 # diff b2n method and function - methods belong to specific classes while functions are independent
 # a = "   Savio Muriithi  "
@@ -38,7 +38,7 @@ allStudents.count("Geoffrey")
 # DRY PRINCIPLE - Dont Repeat Yourself
 
 # position = allStudents.index("Jacky")
-# print(position)
+print(allStudents.index("Jacky"))
 print(allStudents)
 print(allStudents[1:3])
 
