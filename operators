@@ -1,0 +1,44 @@
+# Types of operators:
+
+    # Arithmetic Operators
+
+# +,-,-,/
+# ** used for exponential eg 2 to the power of 3
+print(2**3)
+# % modulo operator - returns the reminder in a division/after a division
+#modulor is used for divisibility tests,to check even and odd numbers
+print(10%3)
+print(48%2)
+print(51%2)
+#Task - use modulor operator to check if a year is a leap year
+
+# // floor division - truncates a decimal to a whole number ie does away with the decimal
+print(49/2)
+print(49//2)
+
+    # Assignment Operators
+
+# = assigns to an identifier
+add = 2+2
+print(add)
+#+=increment operator that can increment by any amount
+add += 1
+print(add)
+#++ increment operator,increments by 1 only
+#-= decrement operator, decrements by any amount
+add -= 1
+print(add)
+
+    # Logical Operators
+#and,or,not
+print(290>=300 and 70>=60)
+
+    # Comparison Operators
+
+#always yields boolean data type as results
+#> greater than
+#>= greater than or equals to
+#< less than
+#<= less than or equals to
+#!= not equal to
+
