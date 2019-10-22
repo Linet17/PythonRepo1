@@ -42,15 +42,15 @@ print(total)
 for e in range(8, 90, 3):
     print(e)
 
-# first 20 numbers and their squares and cube use for loop and While loop
-# for no in range(21):
-#     square = no ** 2
-#     cube = no ** 3
-#     print("{} ...{} ...{}".format(no, square, cube))
-#
-# number = 1
-# while number <= 20:
-#     square = number ** 2
-#     cube = number ** 3
-#     print("{} ...{} ...{}".format(number, square, cube))
-#     number += 1
+#first 20 numbers and their squares and cube use for loop and While loop
+for no in range(21):
+    square = no ** 2
+    cube = no ** 3
+    print("{} ...{} ...{}".format(no, square, cube))
+
+number = 1
+while number <= 20:
+    square = number ** 2
+    cube = number ** 3
+    print("{} ...{} ...{}".format(number, square, cube))
+    number += 1
